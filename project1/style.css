@@ -1,0 +1,109 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Typography */
+body {
+    font-family: 'Montserrat', serif;
+    line-height: 1.6;
+    background: #b8babd;
+    color: #ffffff;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #8f8f8f, #cecece);
+    color: #00796b;
+    padding: 1.5em 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Sections */
+section {
+    padding: 2em;
+    margin: 2em auto;
+    max-width: 800px;
+    background: #383737;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    color: #ffffff; /* Text color for section */
+}
+
+section h2 {
+    color: #ffffff; /* Heading color */
+    margin-bottom: 1em;
+}
+
+section p {
+    color: #ffffff; /* Paragraph text color */
+}
+
+section ul {
+    list-style-type: none;
+    padding-left: 1em;
+}
+
+section ul li {
+    margin-bottom: 0.5em;
+}
+
+section img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1em;
+}
+
+section a {
+    color: #009688;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+section a:hover {
+    color: #00796b;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+    background: #f5f7fa;
+    color: #333; /* Footer text color */
+}
+
+footer a {
+    color: #009688;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Utility Classes */
+.text-center {
+    text-align: center;
+}
+
+.mt-2 {
+    margin-top: 2em;
+}
+
+.mb-2 {
+    margin-bottom: 2em;
+}
