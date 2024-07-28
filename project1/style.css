@@ -9,14 +9,14 @@
 body {
     font-family: 'Montserrat', serif;
     line-height: 1.6;
-    background: #b8babd;
+    background: #1e726e;
     color: #ffffff;
 }
 
 /* Header */
 header {
-    background: linear-gradient(135deg, #8f8f8f, #cecece);
-    color: #00796b;
+    background: linear-gradient(135deg, #2a302f, #1e726e);
+    color: #ffffff;
     padding: 1.5em 0;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -31,12 +31,18 @@ header p {
     font-size: 1.2em;
 }
 
+/* Additional CSS for Project Overview Paragraph */
+#overview p {
+    text-indent: 2em; /* Adjust the indentation size as needed */
+}
+
+
 /* Sections */
 section {
     padding: 2em;
     margin: 2em auto;
     max-width: 800px;
-    background: #383737;
+    background: #2a302f;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     border-radius: 12px;
     color: #ffffff; /* Text color for section */
@@ -49,6 +55,7 @@ section h2 {
 
 section p {
     color: #ffffff; /* Paragraph text color */
+    margin-bottom: 1.5em;
 }
 
 section ul {
@@ -68,13 +75,13 @@ section img {
 }
 
 section a {
-    color: #009688;
+    color: #1e726e;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 section a:hover {
-    color: #00796b;
+    color: #ffffff;
 }
 
 /* Footer */
@@ -82,12 +89,12 @@ footer {
     text-align: center;
     padding: 1em 0;
     margin-top: 2em;
-    background: #f5f7fa;
-    color: #333; /* Footer text color */
+    background: #2a302f;
+    color: #2a302f; /* Footer text color */
 }
 
 footer a {
-    color: #009688;
+    color: #1e726e;
     text-decoration: none;
 }
 
@@ -106,4 +113,12 @@ footer a:hover {
 
 .mb-2 {
     margin-bottom: 2em;
+}
+/* Highlight Class */
+.highlight {
+    font-weight: bold; /* Makes text bold */
+    color: #1e726e; /* Sets text color (orange in this case) */
+    background-color: #e3e666; /* Sets background color (light grey in this case) */
+    padding: 0.2em; /* Adds padding around the text */
+    border-radius: 4px; /* Optional: rounds the corners of the highlight */
 }

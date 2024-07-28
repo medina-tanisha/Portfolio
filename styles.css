@@ -9,13 +9,13 @@
 body {
     font-family: 'Montserrat', serif;
     line-height: 1.6;
-    background: #b8babd;
+    background: #1e726e;
     color: #ffffff;
 }
 
 /* Header */
 header {
-    background: linear-gradient(135deg, #888888, #000000); /* Black and dark grey gradient */
+    background: linear-gradient(135deg, #2a302f, #1e726e); /* Black and dark grey gradient */
     color: #ffffff;
     padding: 1.5em 0;
     text-align: center;
@@ -36,7 +36,7 @@ section {
     padding: 2em;
     margin: 2em auto;
     max-width: 800px;
-    background: #383737;
+    background: #2a302f;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced box shadow for 3D effect */
     border-radius: 12px; /* Rounded corners */
 }
@@ -60,7 +60,7 @@ section {
 }
 
 #portfolio h3 {
-    color: #009688; /* Teal */
+    color: #1e726e; /* Teal */
     margin-bottom: 0.5em;
 }
 
@@ -75,7 +75,7 @@ section {
     display: inline-block;
     margin-top: 0.5em;
     padding: 0.5em 1em;
-    background: #009688; /* Teal */
+    background: #1e726e; /* Teal */
     color: #fff;
     text-decoration: none;
     border-radius: 4px;
@@ -83,7 +83,7 @@ section {
 }
 
 #portfolio a:hover {
-    background: #00796b; /* Darker teal on hover */
+    background: #1e726e; /* Darker teal on hover */
 }
 
 /* Contact Section */
@@ -96,7 +96,7 @@ section {
 }
 
 #contact a {
-    color: #009688; /* Teal */
+    color: #1e726e; /* Teal */
     text-decoration: none;
 }
 
@@ -113,7 +113,7 @@ footer {
 }
 
 footer a {
-    color: #009688; /* Teal */
+    color: #1e726e; /* Teal */
     text-decoration: none;
 }
 
